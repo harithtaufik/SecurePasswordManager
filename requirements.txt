@@ -1,0 +1,10 @@
+pyotp
+qrcode
+Pillow
+pyperclip
+rotki-pysqlcipher3
+zxcvbn-python
+requests
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib

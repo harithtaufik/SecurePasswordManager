@@ -1,0 +1,27 @@
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# User-specific Google Drive authentication tokens (MUST NOT be uploaded to GitHub)
+credentials/token.json
+
+# Database and local data directories (Created dynamically when app runs)
+data/
+*.db
+
+# IDE configuration files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

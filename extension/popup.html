@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 250px; padding: 10px; font-family: Arial, sans-serif; background-color: #f9f9f9;}
+    h3 { margin-top: 0; color: #2c3e50; text-align: center;}
+    input, button { width: 100%; margin-bottom: 10px; padding: 8px; box-sizing: border-box; border-radius: 4px; border: 1px solid #ccc;}
+    button { background-color: #27ae60; color: white; cursor: pointer; font-weight: bold; border: none;}
+    button:hover { background-color: #2ecc71; }
+    .account-btn { background-color: #3498db; margin-top: 5px; font-size: 12px; }
+    .account-btn:hover { background-color: #2980b9; }
+    #status { font-size: 12px; color: #e74c3c; text-align: center; font-weight: bold;}
+    #account-list { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h3>SecurePass Autofill</h3>
+  <input type="password" id="master-pw" placeholder="Master Password">
+  <button id="search-btn">Search Vault</button>
+  <p id="status"></p>
+
+  <div id="account-list"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

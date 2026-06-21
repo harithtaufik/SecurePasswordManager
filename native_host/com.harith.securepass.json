@@ -1,0 +1,9 @@
+{
+    "name": "com.harith.securepass",
+    "description": "SecurePass Native Host",
+    "path": "C:\\Users\\harit\\PycharmProjects\\harithproject\\native_host\\com.harith.securepass.bat",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://bbbgcielondafboddjgaamncjnheoadh/"
+    ]
+}

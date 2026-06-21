@@ -1,0 +1,39 @@
+{
+    "name":  "SecurePass Autofill",
+    "version":  "1.1",
+    "manifest_version":  3,
+    "description":  "Autofill passwords from SecurePass Vault.",
+    "permissions":  [
+                        "nativeMessaging",
+                        "activeTab",
+                        "scripting"
+                    ],
+    "background":  {
+                       "service_worker":  "background.js"
+                   },
+    "content_scripts":  [
+                            {
+                                "matches":  [
+                                                "\u003call_urls\u003e"
+                                            ],
+                                "js":  [
+                                           "content.js"
+                                       ],
+                                "run_at":  "document_idle"
+                            }
+                        ],
+    "web_accessible_resources":  [
+                                     {
+                                         "resources":  [
+                                                           "key.png"
+                                                       ],
+                                         "matches":  [
+                                                         "\u003call_urls\u003e"
+                                                     ]
+                                     }
+                                 ],
+    "action":  {
+                   "default_popup":  "popup.html"
+               },
+    "key":  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvfwIobZ7CfQ7+dfzwBVDvLn/GQ/J/plnhKoXQ3Lf3hO/xN/O2XDIgzlvfrjqSytQIDqrPMzlfR/X8yjlaL9argGgUdG+91AihCQUs4jD4EUcL7NkeBL9VTi8/rdCZnDnM9IM4qJODr6Vy/u2nsbBL69uXwfvswqEX5XEMx89n4+PYST8mAg8h0XTRqz14mWvGRos+1ont0x3engXDKMG1eUZdEmMk2vvBlsdaOuv7s/e+5PWQCnnlN3ho56yJJLPevIg9VL0p+fpIZF30QLd95tCiaABrP26SJOXal/JAwaVsYgomIaBeQBVVBkzz8fUKmt3TPlSxLF+oCYZ1dfCiwIDAQAB"
+}
