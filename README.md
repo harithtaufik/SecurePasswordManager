@@ -1,21 +1,20 @@
 # SecurePass Password Manager
 
-This project is structured into **two separate versions** depending on your needs:
+This project is structured into two separate versions depending on your needs:
 
-1. **🐍 Source Code Version (Current Page):** Best for project assessors, lecturers, and developers who want to view, inspect, and run the Python code using **PyCharm** or another IDE. (Follow the guide below).
-2. **🚀 Standalone Executable Version (.EXE):** Best for users who want to double-click and run the application instantly on Windows without installing Python or setting up an IDE. You can download it directly from the **[GitHub Releases Page](https://github.com/harithtaufik/SecurePasswordManager/releases/tag/v1.0.0)**.
+1. **Source Code Version (Current Page):** Run the Python code using PyCharm or another IDE. (Follow the guide below).
+2. **Standalone Executable Version (.EXE):** Run the application directly on Windows without installing Python or configuring an IDE. The pre-compiled executable is available for download on the [GitHub Releases Page](https://github.com/harithtaufik/SecurePasswordManager/releases/tag/v1.0.0).
 
 ---
 
-
-## 🛠️ Prerequisites
+## Prerequisites
 
 * **Python 3.11.9** installed on your system (Recommended, version used during development).
 * **Google Chrome** browser (for testing the Chrome extension autofill feature).
 
 ---
 
-## 🚀 Setup and Installation Steps
+## Setup and Installation Steps
 
 Follow these steps to get the application running from source code:
 
@@ -50,7 +49,7 @@ Chrome needs to be registered to allow the browser extension to communicate with
 
 ---
 
-## 🏃 Running the Application
+## Running the Application
 
 1. Run the main GUI script:
    ```bash
@@ -60,10 +59,11 @@ Chrome needs to be registered to allow the browser extension to communicate with
 
 ---
 
-## 🔄 Switching Google Drive Accounts
+## Switching Google Drive Accounts
 
 If you ever want to change the Google Drive account used for backups:
 1. Navigate to the **`credentials`** folder inside this directory.
 2. Delete the **`token.json`** file.
 3. The next time you click **Backup** or **Restore** in the application, a new Google sign-in page will automatically open in your browser, allowing you to log in with a different Google account.
+
 
