@@ -1,8 +1,12 @@
-# SecurePass Password Manager (Source Code Version)
+# SecurePass Password Manager
 
-This directory contains the full Python source code for the SecurePass Password Manager application. It is designed to be opened, reviewed, and run using an IDE like **PyCharm** or via the command line.
+This project is structured into **two separate versions** depending on your needs:
+
+1. **🐍 Source Code Version (Current Page):** Best for project assessors, lecturers, and developers who want to view, inspect, and run the Python code using **PyCharm** or another IDE. (Follow the guide below).
+2. **🚀 Standalone Executable Version (.EXE):** Best for users who want to double-click and run the application instantly on Windows without installing Python or setting up an IDE. You can download it directly from the **[GitHub Releases Page](https://github.com/harithtaufik/SecurePasswordManager/releases/tag/v1.0.0)**.
 
 ---
+
 
 ## 🛠️ Prerequisites
 
